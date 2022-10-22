@@ -1,0 +1,267 @@
+@media only screen and (max-width:969px){
+    body{
+        background-color: ;
+    }
+}
+
+@font-face{
+    font-family: sans;
+    src: url(Font/OpenSans-Regular.ttf);
+}
+
+*{
+    background-color: #011a27;
+    font-family: sans;
+    font-size: small;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header -----------------------------------------------------------*/
+.navbar{
+    background-color: black;
+    justify-content: space-between;
+    display: flex;
+    padding: 30px 150px;
+    align-items: center;
+    box-shadow: 0 5px 10px #04f17a;
+    margin-bottom: 10px;
+}
+
+.navbar li, a{
+    background-color: black;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 20px;
+    color: #118ab2;
+}
+
+.navbar .logo{
+    background-color: black;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.navbar .logo img{
+    background-color: black;
+    width: 80px;
+    padding: 0;
+}
+
+.navbar .logo a{
+    font-size: 35px;
+}
+
+.navbar .logo a span{
+    font-size: 35px;
+    background-color: black;
+    color: #16db93;
+}
+
+.navbar .logo a:hover, .navbar .logo a span:hover{
+    color: white;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    background-color: black;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.navbar .nav-links ul{
+    background-color: black;
+}
+
+.navbar .nav-links ul li{
+    background-color: black;
+    display: inline-block;
+    text-align: center;
+    padding: 0 15px;
+}
+
+.navbar .nav-links ul li a:hover{
+    color: #fff;
+}
+
+.navbar .nav-links .submenu{
+    display: none;
+}
+
+.navbar .nav-links .submenu .second li{
+    padding: 10px 20px;
+    text-align: left;
+    display: block;
+}
+
+.navbar .nav-links ul li:hover .submenu{
+    display: block;
+    position: absolute;
+    background: black;
+    padding: 20px 0 15px 0;
+    margin-left: -15px;
+}
+
+/* Body ----------------------------------------------------------- */
+.wrapper{
+    position: relative;
+    text-align: center;
+    margin: 200px;
+    border-radius: 5px;
+}
+
+.wrapper h1{
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 30px;
+}
+
+.wrapper .input_field{
+    margin-bottom: 10px;
+    color: white;
+}
+
+.wrapper .input_field .label{
+    color: white;
+    margin-bottom: 10px;
+}
+
+.wrapper .input_field #gender{
+    color: white;
+    padding: 5px;
+}
+
+.wrapper .input_field #branch{
+    color: white;
+    padding: 5px;
+}
+
+.wrapper .input_field input[type="text"],
+.wrapper textarea{
+    width: 280px;
+    border: 1px solid black;
+    padding: 10px;
+    color: white;
+}
+
+.wrapper textarea{
+    height: 80px;
+    resize: none;
+}
+
+.wrapper .btn input[type="submit"]{
+    border: 0;
+    margin-top: 15px;
+    padding: 10px;
+    width: 180px;
+    background: #fff;
+    color: #118ab2;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.wrapper .btn input[type="submit"]:hover{
+    color: white;
+    background: #118ab2;
+}
+
+.wrapper #error_message{
+    margin-bottom: 20px;
+    color: white;
+    padding: 0px;
+    background: red;
+    text-align: center;
+    transition: all 0.5s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer -----------------------------------------------------------*/
+.footer{
+    background-color: black;
+    justify-content: space-between;
+    display: flex;
+    padding: 17px 11%;
+    align-items: center;
+    box-shadow: 0px -5px 10px #04f17a;
+    margin: 20px 0 0 0;
+}
+
+.footer .logo{
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+.footer .logo img{
+    background-color: black;
+    width: 50px;
+    padding: 0;
+}
+
+.footer .logo a{
+    font-size: 20px;
+    cursor: text;
+}
+
+.footer .logo a span{
+    font-size: 20px;
+    background-color: black;
+    color: #16db93;
+}
+
+.footer .links{
+    list-style: none;
+    margin: 0 0 0 100px;
+}
+
+.footer .links ul{
+    background: black;
+}
+
+.footer .links ul li{
+    display: inline-block;
+}
+
+.footer .links ul li a{
+    font-size: 15px;
+    padding: 0 15px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3 ease 0s;
+}
+
+.footer .links ul li a:hover{
+    color: #fff;
+}
+
+.footer .copy-right{
+    color: #118ab2;
+}
+
+.footer .copy-right h5{
+    background-color: black;
+    font-size: 10px;
+}

@@ -1,0 +1,286 @@
+@media only screen and (max-width:969px){
+    body{
+        background-color: ;
+    }
+}
+
+@font-face{
+    font-family: sans;
+    src: url(Font/OpenSans-Regular.ttf);
+}
+
+*{
+    background-color: #011a27;
+    font-family: sans;
+    font-size: small;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header -----------------------------------------------------------*/
+.navbar{
+    background-color: black;
+    justify-content: space-between;
+    display: flex;
+    padding: 30px 150px;
+    align-items: center;
+    box-shadow: 0 5px 10px #04f17a;
+    margin-bottom: 10px;
+}
+
+.navbar li, a{
+    background-color: black;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 20px;
+    color: #118ab2;
+}
+
+.navbar .logo{
+    background-color: black;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.navbar .logo img{
+    background-color: black;
+    width: 80px;
+    padding: 0;
+}
+
+.navbar .logo a{
+    font-size: 35px;
+}
+
+.navbar .logo a span{
+    font-size: 35px;
+    background-color: black;
+    color: #16db93;
+}
+
+.navbar .logo a:hover, .navbar .logo a span:hover{
+    color: white;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    background-color: black;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.navbar .nav-links ul{
+    background-color: black;
+}
+
+.navbar .nav-links ul li{
+    background-color: black;
+    display: inline-block;
+    text-align: center;
+    padding: 0 15px;
+}
+
+.navbar .nav-links ul li a:hover{
+    color: #fff;
+}
+
+.navbar .nav-links .submenu{
+    display: none;
+}
+
+.navbar .nav-links .submenu .second li{
+    padding: 10px 20px;
+    text-align: left;
+    display: block;
+}
+
+.navbar .nav-links ul li:hover .submenu{
+    display: block;
+    position: absolute;
+    background: black;
+    padding: 20px 0 15px 0;
+    margin-left: -15px;
+}
+
+/* Body -------------------------------------------------------------*/
+/* Story */
+.story{
+    width: 80%;
+    margin: 50px 20% 0 10%;
+}
+
+.story .row{
+    display: flex;
+}
+
+.story .row .col{
+    flex-basis: 50%;
+    min-width: 250px;
+    color: whitesmoke;
+}
+
+.story .row .col h4{
+    font-size: large;
+    margin-bottom: 20px;
+}
+
+.story .row .col h1{
+    font-size: xx-large;
+    margin-bottom: 50px;
+}
+
+.story .row .col p{
+    font-size: large;
+}
+
+/* Open Hours */
+.open-hours{
+    text-align: center;
+    /* border: 2px solid aqua; */
+    /* margin: 20px 30% 20px 30%; */
+    padding: 100px 11%;
+    background: black;
+    color: white;
+}
+
+.open-hours .border{
+    margin: 0 30% 0 30%;
+    border: 2px solid aqua;
+}
+
+.open-hours .title{
+    font-size: xx-large;
+    padding: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.open-hours .day{
+    font-size: x-large;
+    padding: 0px 0px 10px 0px;
+}
+
+.open-hours .day span{
+    color: red;
+    font-size: x-large;
+}
+
+.open-hours .hours{
+    font-size: large;
+    padding-bottom: 50px;
+}
+
+.open-hours button{
+    background-color: black;
+    padding: 10px;
+    margin-bottom: 20%;
+}
+
+.open-hours button a{
+    color: red;
+}
+
+.open-hours button a:hover{
+    color: white;
+}
+
+/* Social Media */
+.sosmed{
+    text-align: center;
+}
+
+.sosmed h1{
+    margin-top: 50px;
+    font-size: xx-large;
+    color: white;
+}
+
+.sosmed .row{
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.sosmed .row .col{
+    flex-basis: 50%;
+    margin: 30px;
+}
+
+.sosmed .row .col a{
+    background-color: #011a27;
+}
+
+.sosmed .row .col img{
+    margin: 0px;
+    position: relative;
+    border-radius: 100px;
+    overflow: hidden;
+}
+
+
+/* Footer -----------------------------------------------------------*/
+.footer{
+    background-color: black;
+    justify-content: space-between;
+    display: flex;
+    padding: 17px 11%;
+    align-items: center;
+    box-shadow: 0px -5px 10px #04f17a;
+    margin: 20px 0 0 0;
+}
+
+.footer .logo{
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+.footer .logo img{
+    background-color: black;
+    width: 50px;
+    padding: 0;
+}
+
+.footer .logo a{
+    font-size: 20px;
+    cursor: text;
+}
+
+.footer .logo a span{
+    font-size: 20px;
+    background-color: black;
+    color: #16db93;
+}
+
+.footer .links{
+    list-style: none;
+    margin: 0 0 0 100px;
+}
+
+.footer .links ul{
+    background: black;
+}
+
+.footer .links ul li{
+    display: inline-block;
+}
+
+.footer .links ul li a{
+    font-size: 15px;
+    padding: 0 15px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3 ease 0s;
+}
+
+.footer .links ul li a:hover{
+    color: #fff;
+}
+
+.footer .copy-right{
+    color: #118ab2;
+}
+
+.footer .copy-right h5{
+    background-color: black;
+    font-size: 10px;
+}

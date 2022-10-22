@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Contactus.css">
+    <script src="Contactus.js"></script>
+    <title>Contact Us</title>
+</head>
+<body>
+    
+<!-- Header -->
+    <!-- NavBar -->
+    <div class="navbar">
+
+        <div class="logo">
+            <img src="assets/logo-transparan.png">
+            <a href="index.html">Dan<span>Bam</span></a>
+        </div>
+
+        <nav class="nav-links">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a>
+                    <div class="submenu">
+                        <ul class="second">
+                            <li><a href="food.html">Food</a></li>
+                            <li><a href="drink.html">Drink</a></li>
+                            <li><a href="dessert.html">Dessert</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="Location.html">Location</a></li>
+                <li><a href="Contactus.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </div>
+
+
+<!-- Body -->
+
+<!-- name, email, gender, danbam branch location, message -->
+    <div class="wrapper">
+        <h1>Contact Us</h1>
+        <div id="error_message"></div>
+
+        <form id="myform" onsubmit="return validation()">
+            <div class="input_field">
+                <input type="text" placeholder="Name" id="name">
+            </div>
+            
+            <div class="input_field">
+                <input type="text" placeholder="Email" id="email">
+            </div>
+
+            <div class="input_field">
+                <div class="label">Gender</div>
+                <select name="Gender" id="gender">
+                    <option value="">Male</option>
+                    <option value="">Female</option>
+                </select>
+            </div>
+
+            <div class="input_field">
+                <div class="label">Branch</div>
+                <select name="Branch" id="branch">
+                    <option value="">Jakarta</option>
+                    <option value="">Bali</option>
+                </select>
+            </div>
+
+            <div class="input_field">
+                <textarea id="message" placeholder="Message"></textarea>
+            </div>
+
+            <div class="btn">
+                <input type="submit">
+            </div>
+
+        </form>
+    </div>
+
+
+
+
+
+<!-- Footer -->
+    <div class="footer">
+        <div class="logo">
+            <img src="Assets/logo-transparan.png">
+            <a href="#">Dan<span>Bam</span></a>
+        </div>
+
+        <div class="links">
+            <ul>
+                <li><a href="aboutus.html">Social Media</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="Contactus.html">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <div class="copy-right">
+            <h5>©DanBam,Inc.2021. We love our users</h5>
+        </div>
+    </div>
+
+
+</body>
+</html>
